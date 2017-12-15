@@ -23,7 +23,7 @@
     </RelativeLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_0.5"
+        android:layout_height="@dimen/dp_1"
         android:background="@color/bg_color"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"/>
@@ -78,7 +78,7 @@
                 android:layout_height="wrap_content"
                 android:text="--"
                 android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_f0AD4E"/>
+                android:textColor="@color/color_666666"/>
         </LinearLayout>
 
         <LinearLayout
@@ -159,7 +159,7 @@
     </LinearLayout>
     <View
         android:layout_width="match_parent"
-        android:layout_height="@dimen/dp_0.5"
+        android:layout_height="@dimen/dp_1"
         android:background="@color/bg_color"
         android:layout_marginTop="10dp"
         />
