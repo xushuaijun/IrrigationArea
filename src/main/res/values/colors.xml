@@ -24,7 +24,9 @@
     <color name="color_54BFFC">#54BFFC</color>
     <color name="color_47B985">#47B985</color>
     <color name="color_lightblack">#22252A</color>
-
-    <color name="color_80000000">#70000000</color>
+    <color name="color_EDB65F">#EDB65F</color>
+    <color name="color_F07E6D">#F07E6D</color>
+    <color name="color_5CB85C">#5CB85C</color>
+    <color name="color_80000000">#80000000</color>
     <color name="color_black">#000000</color>
 </resources>

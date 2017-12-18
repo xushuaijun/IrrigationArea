@@ -8,6 +8,10 @@
         "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\drawable\\btn_login_bg.xml"
     },
     {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_bg.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\drawable\\btn_blue_bg.xml"
+    },
+    {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
@@ -36,12 +40,12 @@
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_list.xml",
-        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\drawable\\bg_white_list.xml"
-    },
-    {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_white_list.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\drawable\\bg_white_list.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\background_tab.xml",
@@ -64,12 +68,12 @@
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_cab_background_top_material.xml"
-    },
-    {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
@@ -146,6 +150,10 @@
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red_bg.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\drawable\\btn_red_bg.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",

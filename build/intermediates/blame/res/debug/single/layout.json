@@ -4,32 +4,40 @@
         "source": "C:\\Users\\xmh\\.android\\build-cache\\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\xmh\\.android\\build-cache\\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\\output\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\xmh\\.android\\build-cache\\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\realtimevediogrid_list_item.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\realtimevediogrid_list_item.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\xmh\\.android\\build-cache\\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\xmh\\.android\\build-cache\\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\realtimegatecontrol_list_item.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\realtimegatecontrol_list_item.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -74,6 +82,10 @@
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\activity_realtimevedio.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\activity_realtimevedio.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\layout_menu_item.xml",
@@ -180,12 +192,20 @@
         "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\ljlistview.xml"
     },
     {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\activity_realtimeraincondition.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\activity_realtimeraincondition.xml"
+    },
+    {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\pager_number.xml",
         "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\library\\build\\intermediates\\bundles\\default\\res\\layout\\pager_number.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\activity_realtimewaterquality.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\activity_realtimewaterquality.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
@@ -236,12 +256,24 @@
         "source": "C:\\Users\\xmh\\.android\\build-cache\\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\activity_realtimegatecontrol.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\activity_realtimegatecontrol.xml"
+    },
+    {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\xmh\\.android\\build-cache\\3f468be6e63a396daca59c48be5d62bd4fd75355\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\textviewmore.xml",
         "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\library\\build\\intermediates\\bundles\\default\\res\\layout\\textviewmore.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\realtimewaterquality_list_item.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\realtimewaterquality_list_item.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\activity_realtimegatecontroldetail.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\activity_realtimegatecontroldetail.xml"
     },
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
@@ -314,5 +346,9 @@
     {
         "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\ljlistview_infohint.xml",
         "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\ljlistview_infohint.xml"
+    },
+    {
+        "merged": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\build\\intermediates\\res\\merged\\debug\\layout\\realtimerain_list_item.xml",
+        "source": "E:\\xmh\\project\\Waterdemo\\WaterStewardDemo\\irrigationarea\\src\\main\\res\\layout\\realtimerain_list_item.xml"
     }
 ]
