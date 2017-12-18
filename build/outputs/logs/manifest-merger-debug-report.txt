@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:2:1-125:12
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:2:1-195:12
 	package
 		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:4:5-37
 		INJECTED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml
@@ -64,7 +64,7 @@ ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\And
 	android:name
 		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:23:22-78
 application
-ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:25:5-123:19
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:25:5-193:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xmh\.android\build-cache\c98d311b666cebf4b84a61530ec1cfd5312e5791\output\AndroidManifest.xml:9:5-20
 MERGED from [WaterStewardDemo:library:unspecified] E:\xmh\project\Waterdemo\WaterStewardDemo\library\build\intermediates\bundles\default\AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] C:\Users\xmh\.android\build-cache\a0a35f92f14706b9ef6f5fea9f40b595a77d7a2e\output\AndroidManifest.xml:29:5-20
@@ -230,12 +230,132 @@ ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\And
 		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:114:13-56
 	android:name
 		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:110:13-74
-meta-data#com.xsj.irrigationarea.glide.GlideModelConfig
-ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:118:9-120:43
-	android:value
-		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:120:13-40
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDemandActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:116:9-122:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:119:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:120:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:118:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:121:13-56
 	android:name
-		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:119:13-73
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:117:13-81
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDemandUnitActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:123:9-129:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:126:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:127:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:125:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:128:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:124:13-85
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDemandUnitAddActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:130:9-136:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:133:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:134:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:132:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:135:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:131:13-88
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDistributionActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:137:9-143:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:140:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:141:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:139:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:142:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:138:13-87
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDistributionApplyActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:144:9-150:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:147:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:148:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:146:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:149:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:145:13-92
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDistributionApplyAddActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:151:9-157:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:154:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:155:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:153:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:156:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:152:13-95
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDispatchActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:158:9-164:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:161:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:162:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:160:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:163:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:159:13-83
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDispatchHistoryInfoActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:165:9-171:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:168:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:169:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:167:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:170:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:166:13-94
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDispatchHistoryListActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:172:9-178:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:175:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:176:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:174:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:177:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:173:13-94
+activity#com.xsj.irrigationarea.activity.waterDistributionManage.WaterDispatchDutyManageActivity
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:180:9-186:15
+	android:launchMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:183:13-44
+	android:windowSoftInputMode
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:184:13-52
+	android:configChanges
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:182:13-74
+	android:theme
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:185:13-56
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:181:13-93
+meta-data#com.xsj.irrigationarea.glide.GlideModelConfig
+ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:188:9-190:43
+	android:value
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:190:13-40
+	android:name
+		ADDED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml:189:13-73
 uses-sdk
 INJECTED from E:\xmh\project\Waterdemo\WaterStewardDemo\irrigationarea\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\xmh\.android\build-cache\c98d311b666cebf4b84a61530ec1cfd5312e5791\output\AndroidManifest.xml:5:5-7:41
