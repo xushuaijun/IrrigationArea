@@ -188,6 +188,18 @@
             android:launchMode="singleTask"
             android:theme="@style/AppTheme.NoActionBar"
             android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.xsj.irrigationarea.activity.projectManage.ProjectManageActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name="com.xsj.irrigationarea.activity.projectManage.BasicInformationActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan" />
         <!-- 配置glide -->
         <meta-data
             android:name="com.xsj.irrigationarea.glide.GlideModelConfig"

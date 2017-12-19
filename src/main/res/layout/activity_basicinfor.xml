@@ -11,7 +11,7 @@
         <include
             layout="@layout/title_bar"/>
         <RelativeLayout
-            android:id="@+id/rl_project_watersource"
+            android:id="@+id/rl_basic_waterlevel"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
@@ -20,7 +20,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="水源工程管理"
+                android:text="水位信息"
                 android:textColor="@color/color_333333"
                 android:textSize="18sp"
                 android:gravity="center"
@@ -33,7 +33,7 @@
                 android:layout_centerVertical="true"/>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@+id/rl_project_channel"
+            android:id="@+id/rl_basic_flow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
@@ -43,7 +43,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="渠道工程管理"
+                android:text="流量信息"
                 android:textColor="@color/color_333333"
                 android:textSize="18sp"
                 android:gravity="center"
@@ -56,7 +56,7 @@
                 android:layout_centerVertical="true"/>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@+id/rl_project_ditch"
+            android:id="@+id/rl_basic_waterquality"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
@@ -66,7 +66,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="沟道工程管理"
+                android:text="水质信息"
                 android:textColor="@color/color_333333"
                 android:textSize="18sp"
                 android:gravity="center"
@@ -79,7 +79,7 @@
                 android:layout_centerVertical="true"/>
         </RelativeLayout>
         <RelativeLayout
-            android:id="@+id/rl_project_canalstructure"
+            android:id="@+id/rl_basic_video"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@android:color/white"
@@ -89,7 +89,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
-                android:text="渠系建筑物管理"
+                android:text="视频信息"
+                android:textColor="@color/color_333333"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:drawablePadding="3dp"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ico_sy_toright"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rl_basic_weather"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:layout_marginTop="@dimen/dp_1"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="气象信息"
                 android:textColor="@color/color_333333"
                 android:textSize="18sp"
                 android:gravity="center"
