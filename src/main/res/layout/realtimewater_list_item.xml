@@ -41,7 +41,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="测站地址："
+                android:text="安装地址："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
@@ -53,11 +53,42 @@
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:layout_marginTop="@dimen/dp_10">
+
+        <LinearLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="井深（m）："
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/color_666666"
+                android:drawablePadding="@dimen/dp_5"/>
+            <TextView
+                android:id="@+id/tv_waterlevel_js"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/color_666666"/>
+        </LinearLayout>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10">
+
         <LinearLayout
             android:layout_width="@dimen/dp_0"
             android:layout_height="wrap_content"
@@ -68,9 +99,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="水位（m）："
+                android:text="当前水位（m）："
                 android:textSize="@dimen/sp_15"
-                android:textColor="@color/bottom_font"
+                android:textColor="@color/color_666666"
                 android:drawablePadding="@dimen/dp_5"/>
             <TextView
                 android:id="@+id/tv_waterlevel_level"
@@ -81,6 +112,15 @@
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
 
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        >
         <LinearLayout
             android:layout_width="@dimen/dp_0"
             android:layout_height="wrap_content"
@@ -90,19 +130,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="流速（m/s）："
+                android:text="当前埋深（m）："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterlevel_flowrate"
+                android:id="@+id/tv_waterlevel_currMS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
-    </LinearLayout>
 
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -129,7 +169,7 @@
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
-    </LinearLayout>
+        </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -148,12 +188,13 @@
                 android:text="预警状态："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
-            <TextView
-                android:id="@+id/tv_waterlevel_status"
+            <ImageView
+                android:id="@+id/img_waterlevel_status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
                 android:textSize="@dimen/sp_15"
+                android:src="@mipmap/zmjk_txgz"
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
     </LinearLayout>
