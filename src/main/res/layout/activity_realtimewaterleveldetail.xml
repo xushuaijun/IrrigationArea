@@ -1,0 +1,416 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/welcomeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <include
+            layout="@layout/title_bar"/>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="@android:color/white"
+                    android:padding="@dimen/dp_15">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginBottom="@dimen/dp_10"
+                        >
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:src="@mipmap/ico_j"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="@dimen/dp_10"
+                            android:gravity="center_vertical">
+                            <TextView
+                                android:id="@+id/tv_wldetail_GWCD"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--"
+                                android:textColor="@color/color_333333"
+                                android:textSize="@dimen/sp_18"
+                                />
+                            <TextView
+                                android:id="@+id/tv_wldetail_GWNM"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="--"
+                                android:textColor="@color/color_666666"
+                                android:textSize="@dimen/sp_16"
+                                android:layout_marginTop="@dimen/dp_5"
+                                />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/dp_0.5"
+                        android:background="@color/color_e6e6e6"
+                        />
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/dp_10"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="经度"
+                            android:textColor="@color/color_969696"
+                            android:textSize="@dimen/sp_16"
+                            />
+                        <TextView
+                            android:id="@+id/tv_wldetail_LGTD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="@dimen/sp_16"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/dp_10"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="纬度"
+                            android:textColor="@color/color_969696"
+                            android:textSize="@dimen/sp_16"
+                            />
+                        <TextView
+                            android:id="@+id/tv_wldetail_LTTD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="@dimen/sp_16"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/dp_10"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="行政区划"
+                            android:textColor="@color/color_969696"
+                            android:textSize="@dimen/sp_16"
+                            />
+                        <TextView
+                            android:id="@+id/tv_wldetail_AreaId"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="@dimen/sp_16"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            />
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="@dimen/dp_10"
+
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="监测设备编号"
+                            android:textColor="@color/color_969696"
+                            android:textSize="@dimen/sp_16"
+                            />
+                        <TextView
+                            android:id="@+id/tv_wldetail_STCD"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="@dimen/sp_16"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/color_e6e6e6"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/color_e6e6e6"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_15"
+                    android:orientation="vertical"
+                    android:background="@android:color/white"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="固定点高程"
+                            android:textColor="@color/color_969696"
+                            android:textSize="@dimen/sp_16"
+                            />
+                        <TextView
+                            android:id="@+id/tv_wldetail_FPALT"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="@dimen/sp_16"
+                            android:layout_marginLeft="@dimen/dp_15"
+                            />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="井深"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_WDEPTH"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/dp_15"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="地下水类型"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_GWTP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/dp_15"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="监测井类型"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_OWSTY"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/dp_15"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="传感器埋深"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_SDEP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/dp_15"/>
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="10dp"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="警戒水位埋深"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_ADEP"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp"
+                            android:layout_marginLeft="@dimen/dp_15"/>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/color_e6e6e6"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/color_e6e6e6"
+                    android:layout_marginTop="10dp"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_15"
+                    android:orientation="vertical"
+                    android:background="@android:color/white"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="所属项目类型"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_PTYPE"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp"
+                            />
+
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="安装时间"
+                            android:textColor="@color/color_969696"
+                            android:textSize="16sp" />
+
+                        <TextView
+                            android:id="@+id/tv_wldetail_PYEAR"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15dp"
+                            android:text="--"
+                            android:textColor="@color/color_2c2c2c"
+                            android:textSize="16sp" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dp_1"
+                    android:background="@color/color_e6e6e6"
+                    />
+
+
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+    
+</RelativeLayout>

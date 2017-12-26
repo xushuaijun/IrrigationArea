@@ -10,6 +10,10 @@
     <color name="bottom_line">#F3F4F6</color>
     <color name="bg_color">#F8F8F8</color>
 
+    <color name="color_e6e6e6">#e6e6e6</color>
+    <color name="color_969696">#969696</color>
+    <color name="color_2c2c2c">#2c2c2c</color>
+
     <color name="color_333333">#333333</color>
     <color name="color_666666">#666666</color>
     <color name="color_ffff5722">#ffff5722</color>
