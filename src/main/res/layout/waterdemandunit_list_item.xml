@@ -98,7 +98,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="灌溉面积（万亩）："
+                android:text="灌溉面积（亩）："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView

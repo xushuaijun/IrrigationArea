@@ -21,7 +21,7 @@
                 android:layout_height="wrap_content"
                 android:layout_centerVertical="true"
                 android:drawableLeft="@mipmap/ico_news_hd"
-                android:text="历史调度记录"
+                android:text="调度记录管理"
                 android:textColor="@color/color_333333"
                 android:textSize="18sp"
                 android:gravity="center"
