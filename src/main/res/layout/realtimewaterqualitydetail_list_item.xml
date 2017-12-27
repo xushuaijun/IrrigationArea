@@ -1,26 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/rl_waterQualityItem"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/bg_white_list"
     android:padding="10dp"
     android:orientation="vertical"
     >
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <TextView
-            android:id="@+id/tv_waterquality_cname"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="--"
-            android:textColor="@color/title_bg"
-            android:textSize="@dimen/sp_18"/>
-
-    </RelativeLayout>
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_1"
@@ -41,11 +27,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="监测站地址："
+                android:text="监测时间："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterquality_address"
+                android:id="@+id/tv_wqdetail_time"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -72,7 +58,7 @@
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterquality_temp"
+                android:id="@+id/tv_wqdetail_temp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -92,7 +78,7 @@
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterquality_ph"
+                android:id="@+id/tv_wqdetail_ph"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -121,7 +107,7 @@
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterquality_ry"
+                android:id="@+id/tv_wqdetail_ry"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -141,7 +127,7 @@
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterquality_dd"
+                android:id="@+id/tv_wqdetail_dd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -169,34 +155,7 @@
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_waterquality_zd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="--"
-                android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_666666"/>
-        </LinearLayout>
-    </LinearLayout>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="@dimen/dp_10"
-        >
-        <LinearLayout
-            android:layout_width="@dimen/dp_0"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:paddingLeft="10dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="上报时间："
-                android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_666666"/>
-            <TextView
-                android:id="@+id/tv_waterquality_time"
+                android:id="@+id/tv_wqdetail_zd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -205,33 +164,7 @@
         </LinearLayout>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginTop="@dimen/dp_10"
-        >
-        <LinearLayout
-            android:layout_width="@dimen/dp_0"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:paddingLeft="10dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="设备状态："
-                android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_666666"/>
-            <TextView
-                android:id="@+id/tv_waterquality_status"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="--"
-                android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_666666"/>
-        </LinearLayout>
-    </LinearLayout>
+
     <View
         android:layout_width="match_parent"
         android:layout_height="@dimen/dp_1"
