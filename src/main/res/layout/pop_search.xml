@@ -1,0 +1,176 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    android:orientation="vertical"
+    >
+
+        <RelativeLayout
+            android:id="@+id/rl_pop_address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_marginTop="1dp"
+            android:background="@android:color/white">
+            <TextView
+                android:id="@+id/tv_pop_addressview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="行政区名称"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tv_pop_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/tv_pop_addressview"
+                android:text=""
+                android:hint="点击选择行政名称"
+                android:textColor="@color/color_666666"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:minWidth="50dp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="@dimen/dp_50"
+                />
+
+            <TextView
+                android:id="@+id/tv_feedback_chooseAddress"
+                android:layout_width="@dimen/dp_50"
+                android:layout_height="wrap_content"
+                android:drawableRight="@mipmap/cx_zk02"
+                android:layout_alignParentRight="true"
+                />
+
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_pop_search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@android:color/white"
+        >
+
+        <TextView
+            android:id="@+id/tv_pop_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询条件"
+            android:textColor="@color/color_666666"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            />
+        <EditText
+            android:id="@+id/et_pop_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/tv_pop_search"
+            android:text=""
+            android:textColor="@color/color_666666"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:minWidth="50dp"
+            android:background="@android:color/white"
+            android:drawablePadding="@dimen/dp_5"
+            android:layout_marginLeft="10dp"
+            />
+
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/ll_pop_beginTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@android:color/white"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="开始时间"
+            android:textColor="@color/color_666666"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/pop_starttime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/white"
+            android:minWidth="100dp"
+            android:text="点击选择时间"
+            android:textColor="@color/title_bg"
+            android:textSize="16sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_pop_endTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/dp_1"
+        android:background="@android:color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="结束时间"
+            android:textColor="@color/color_666666"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            />
+        <TextView
+            android:id="@+id/pop_endtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点击选择时间"
+            android:textColor="@color/title_bg"
+            android:textSize="16sp"
+            android:layout_centerVertical="true"
+            android:minWidth="100dp"
+            android:background="@android:color/white"
+            android:layout_marginLeft="10dp"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10">
+
+        <Button
+            android:id="@+id/btn_pop_confirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="确定"
+            android:textSize="20sp"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:background="@drawable/btn_login_bg"
+            android:layout_marginBottom="10dp"
+            />
+    </LinearLayout>
+    
+</LinearLayout>

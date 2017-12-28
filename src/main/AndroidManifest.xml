@@ -234,6 +234,13 @@
             android:windowSoftInputMode="adjustPan"
             android:theme="@style/AppTheme.NoActionBar"
             />
+        <activity
+            android:name=".activity.AreaSelectActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTask"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme.NoActionBar"
+            />
         <!--配置glide-->
         <meta-data
             android:name="com.xsj.irrigationarea.glide.GlideModelConfig"
