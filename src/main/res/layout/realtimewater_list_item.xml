@@ -181,7 +181,8 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:orientation="horizontal"
-            android:paddingLeft="10dp">
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical">
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -194,7 +195,7 @@
                 android:layout_height="wrap_content"
                 android:text="--"
                 android:textSize="@dimen/sp_15"
-                android:src="@mipmap/zmjk_txgz"
+                android:src="@mipmap/icon_yj2"
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
     </LinearLayout>

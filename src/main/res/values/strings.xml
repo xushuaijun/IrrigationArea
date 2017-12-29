@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">IrrigationArea</string>
+    <string name="app_name">冶河灌区</string>
 
     <!-- xlistview  start -->
     <string name="xlistview_header_hint_normal">下拉刷新</string>
