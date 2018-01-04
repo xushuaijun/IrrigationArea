@@ -22,6 +22,10 @@
     <!-- 长久在后台程序 -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
     <application
         android:name=".application.MyApplication"
         android:allowBackup="true"
