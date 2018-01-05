@@ -62,4 +62,5 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.8.1'
     apt 'com.jakewharton:butterknife-compiler:8.8.1'
     compile 'com.bigkoo:convenientbanner:2.0.5'
+    compile "com.esri.arcgisruntime:arcgis-android:100.1.0"
 }
