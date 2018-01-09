@@ -41,31 +41,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="温度（℃）："
+                android:text="时段降水量（mm）："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_raincondition_wd"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="--"
-                android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_666666"/>
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="@dimen/dp_0"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:orientation="horizontal"
-            android:paddingLeft="10dp">
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="湿度（％）："
-                android:textSize="@dimen/sp_15"
-                android:textColor="@color/color_666666"/>
-            <TextView
-                android:id="@+id/tv_raincondition_sd"
+                android:id="@+id/tv_raincondition_drp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -89,11 +69,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="光照（％）："
+                android:text="时段长（h）："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_raincondition_gzqd"
+                android:id="@+id/tv_raincondition_intv"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
@@ -101,6 +81,64 @@
                 android:textColor="@color/color_666666"/>
         </LinearLayout>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        >
+        <LinearLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="日降水量（mm）："
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/color_666666"/>
+            <TextView
+                android:id="@+id/tv_raincondition_dyp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/color_666666"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_10"
+        >
+        <LinearLayout
+            android:layout_width="@dimen/dp_0"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:paddingLeft="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="降水历时（h）："
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/color_666666"/>
+            <TextView
+                android:id="@+id/tv_raincondition_pdr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="--"
+                android:textSize="@dimen/sp_15"
+                android:textColor="@color/color_666666"/>
+        </LinearLayout>
+    </LinearLayout>
+
+
 
 
     <LinearLayout
@@ -118,11 +156,11 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="小时雨量（mm）："
+                android:text="天气状况："
                 android:textSize="@dimen/sp_15"
                 android:textColor="@color/color_666666"/>
             <TextView
-                android:id="@+id/tv_raincondition_houryl"
+                android:id="@+id/tv_raincondition_wth"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="--"
